@@ -7,10 +7,11 @@ jdk:
   - openjdk7
   - oraclejdk7
   - oraclejdk8
+  - openjdk8
 
 build:
   pre_ci_boot:
-    image_name: drydock/u14jav
+    image_name: drydock/u14javall
     image_tag: prod
     pull: true
 
