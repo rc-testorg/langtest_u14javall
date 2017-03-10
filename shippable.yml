@@ -10,7 +10,7 @@ jdk:
   - openjdk8
   
 services:
-  - neo4j
+  #- neo4j
   - elasticsearch
 
 build:
