@@ -3,7 +3,7 @@ language: java
 
 # Version number
 jdk:
-  - openjdk6
+#  - openjdk6
   - openjdk7
   - oraclejdk7
   - oraclejdk8
@@ -17,7 +17,7 @@ build:
 
   ci:
     - java -version
-   # - ant -version
+    - ant -version
     - gradle --version
     - mvn --version    
     
