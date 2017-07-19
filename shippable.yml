@@ -3,11 +3,11 @@ language: java
 
 # Version number
 jdk:
-#  - openjdk6
   - openjdk7
-  - oraclejdk7
-  - oraclejdk8
   - openjdk8
+  - openjdk9
+  - oraclejdk8
+  - oraclejdk9
  
 build:
   pre_ci_boot:
@@ -17,6 +17,7 @@ build:
 
   ci:
     - java -version
-    - gradle --version
+    - echo $SHIPPABLE_JDK_VERSION
     - mvn --version    
-    - ant -version    
+    - ant -version 
+    - gradle --version
