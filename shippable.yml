@@ -12,7 +12,7 @@ jdk:
 build:
   pre_ci_boot:
     image_name: drydock/u14javall
-    image_tag: master # v5.7.3 #  v5.6.1 #
+    image_tag: master  #v5.7.3 # master # v5.6.1 #
     pull: true
 
   ci:
