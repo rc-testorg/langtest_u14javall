@@ -22,6 +22,4 @@ build:
     - mvn --version    
     - ant -version 
     - gradle --version    
-    
-    
-
+ 
